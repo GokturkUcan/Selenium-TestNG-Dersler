@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="crossBrowser calistirma">
+
+    <test name="chrome ile calisacak testler">
+        <parameter name="secilenCrossBrowser" value="chrome"></parameter>
+
+        <classes>
+            <class name="tests.SELENİUM_TestNG.DERS4_CrossBrowser"></class>
+        </classes>
+
+
+    </test>
+
+
+    <test name="firefox ile calisacak testler">
+        <parameter name="secilenCrossBrowser" value="firefox"></parameter>
+
+        <classes>
+            <class name="tests.SELENİUM_TestNG.DERS4_CrossBrowser"></class>
+
+        </classes>
+
+
+    </test>
+
+
+
+
+
+
+</suite>
